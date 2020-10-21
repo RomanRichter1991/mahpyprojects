@@ -1,5 +1,8 @@
 
-UserName = input("Please, enter your name: ")
+print("This is simple calculation program")
+
+
+UserName = input("\nPlease, enter your name: ")
 
 
 A = input("Enter variable A: ")
@@ -8,6 +11,6 @@ C = input("Enter variable C: ")
 
 MathCalc = ((int(A) + int(B)) * int(C))
 
-input("\nHello " + UserName.upper() + "!" + "\nPress Enter to see calculation results!")
+print("\nHello " + UserName.capitalize() + "!")
 
-print("\nCalcultion Result for:",str(A),"+",str(B),"*",str(C),"=",str(MathCalc))
+print("\nCalcultion results for","(",str(A),"+",str(B),")","*",str(C),"is",str(MathCalc))
