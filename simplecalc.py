@@ -8,6 +8,6 @@ C = input("Enter variable C: ")
 
 MathCalc = ((int(A) + int(B)) * int(C))
 
-input("Hello " + UserName.upper() + "!" + "\nPress Enter to see calculation results!")
+input("\nHello " + UserName.upper() + "!" + "\nPress Enter to see calculation results!")
 
 print("\nCalcultion Result for:",str(A),"+",str(B),"*",str(C),"=",str(MathCalc))
